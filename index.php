@@ -7,6 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="text.php" method="GET">
+        <label for="paragraph">Inserisci un testo</label>
+        <textarea name="text" id="paragraph"></textarea>
+
+        <label for="bad-word">Inserisci la parola da censurare</label>
+        <input type="text" id="bad-word" name="word">
+
+        <button type="submit">Invia</button>
+    </form>
 </body>
 </html>
